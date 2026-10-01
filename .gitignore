@@ -1,1 +1,25 @@
 
+# Arquivo de configuração de ambiente (onde ficam senhas e dados do banco)
+.env
+.env.local
+
+# Dependências do PHP / Composer (caso vá utilizar bibliotecas externas)
+/vendor/
+
+# Arquivos e pastas gerados por IDEs e Editores de Código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Arquivos temporários e de logs do sistema/servidor
+*.log
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de carregamento
+/uploads/
+/tmp/
