@@ -17,7 +17,7 @@
                 <div class="mb-3">
                     <span class="logo-icon fs-1 p-3" style="width:70px; height:70px; background-color: var(--primary-teal); border-radius:50%; display:inline-flex; align-items:center; justify-content:center;">N</span>
                 </div>
-                <h1 class="fw-bold fs-2">Nex<span style="color:var(--primary-teal)">o</span>OS</h1>
+                <h1 class="fw-bold fs-2">NexOS</h1>
                 <p class="fs-5 text-muted mt-2">Gestão que conecta.</p>
                 <p class="small text-secondary mt-4">Serviços, clientes e produtos<br>organizados em um só lugar.</p>
             </div>

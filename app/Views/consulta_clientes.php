@@ -19,7 +19,7 @@ if (!isset($_SESSION['usuario_logado'])) {
 <!-- Sidebar Lateral -->
 <div class="app-sidebar">
     <div class="sidebar-brand">
-        <span class="logo-icon">N</span> Nex<span style="color:var(--primary-teal)">o</span>OS
+        <span class="logo-icon">N</span> NexOS
     </div>
     <div class="sidebar-menu-title">Menu Principal</div>
     <nav class="sidebar-nav">
