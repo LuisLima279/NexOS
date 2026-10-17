@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - NexoOS</title>
+    <title>Login - NexOS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../public/css/style.css">
 </head>
@@ -27,7 +27,7 @@
         <div class="col-md-7 d-flex align-items-center justify-content-center bg-light">
             <div class="card border-0 shadow-sm p-4" style="width: 100%; max-width: 420px; border-radius: 12px;">
                 <div class="card-body">
-                    <h3 class="fw-bold mb-1">Bem-vinda ao NexoOS</h3>
+                    <h3 class="fw-bold mb-1">Bem-vinda ao NexOS</h3>
                     <p class="text-muted small mb-4">Acesse sua conta para continuar.</p>
 
                     <?php if (isset($_GET['erro'])): ?>
@@ -60,8 +60,8 @@
                     </form>
 
                     <div class="text-center mt-4 pt-3 border-top">
-                        <small class="text-muted">NexoOS • Gestão para pequenas empresas</small><br>
-                        <small class="text-muted" style="font-size:0.75rem;">© 2026 NexoOS</small>
+                        <small class="text-muted">NexOS • Gestão para pequenas empresas</small><br>
+                        <small class="text-muted" style="font-size:0.75rem;">© 2026 NexOS</small>
                     </div>
                 </div>
             </div>
