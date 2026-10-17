@@ -25,7 +25,7 @@ if (!isset($_SESSION['usuario_logado'])) {
     <nav class="sidebar-nav">
         <a href="#" class="nav-link">Visão geral</a>
         <a href="consulta_clientes.php" class="nav-link active">Clientes</a>
-        <a href="#" class="nav-link">Estoque</a>
+        <a href="consulta_produtos.php" class="nav-link">Estoque</a>
         <a href="#" class="nav-link">Ordens de serviço</a>
         <a href="#" class="nav-link">Relatórios</a>
     </nav>
