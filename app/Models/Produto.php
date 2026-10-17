@@ -19,7 +19,7 @@ class Produto {
     }
 
     public function listarTodos() {
-        $stmt = $this->conn->query("SELECT * FROM produtos ORDER BY id_produto DESC");
+        $stmt = $this->conn->query("SELECT * FROM produtos ORDER BY nome ASC");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 

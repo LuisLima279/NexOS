@@ -10,16 +10,24 @@ if (!isset($_SESSION['usuario_logado'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Produto - NexoOS</title>
+    <title>Cadastro de Produto - nexOS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../public/css/style.css">
+    <style>
+        /* Estilo personalizado para o botão Cancelar ficar vermelho ao passar o mouse */
+        .btn-cancelar-hover:hover {
+            background-color: #dc3545 !important;
+            color: #fff !important;
+            border-color: #dc3545 !important;
+        }
+    </style>
 </head>
 <body>
 
 <!-- Sidebar Lateral -->
 <div class="app-sidebar">
     <div class="sidebar-brand">
-        <span class="logo-icon">N</span> Nex<span style="color:var(--primary-teal)">o</span>OS
+       <span class="logo-icon">N</span> NexOS
     </div>
     <div class="sidebar-menu-title">Menu Principal</div>
     <nav class="sidebar-nav">
@@ -33,15 +41,13 @@ if (!isset($_SESSION['usuario_logado'])) {
 
 <!-- Conteúdo Principal -->
 <div class="app-wrapper">
-    <small class="text-muted">Início / <strong class="text-dark">Cadastro de produto</strong></small>
+    <small class="text-muted">Início / Estoque / <strong class="text-dark">Cadastro de produto</strong></small>
 
     <form action="../Controllers/ProdutoController.php" method="POST">
-        <div class="d-flex justify-content-between align-items-center my-3">
-            <div>
-                <h2 class="fw-bold mb-1">Cadastro de produto</h2>
-                <p class="text-muted small mb-0">Adicione um novo item ao controle de estoque.</p>
-            </div>
-            <button type="submit" class="btn btn-teal px-4 py-2">Salvar produto</button>
+        <!-- Cabeçalho limpo sem o botão duplicado no topo -->
+        <div class="my-3">
+            <h2 class="fw-bold mb-1">Cadastro de produto</h2>
+            <p class="text-muted small mb-0">Adicione um novo item ao controle de estoque.</p>
         </div>
 
         <?php if (isset($_GET['erro'])): ?>
@@ -93,7 +99,7 @@ if (!isset($_SESSION['usuario_logado'])) {
 
             <!-- Botões Inferiores -->
             <div class="d-flex justify-content-end gap-2 mt-4">
-                <a href="consulta_produtos.php" class="btn btn-light text-secondary border px-4 py-2">Cancelar</a>
+                <a href="consulta_produtos.php" class="btn btn-light text-secondary border px-4 py-2 btn-cancelar-hover">Cancelar</a>
                 <button type="submit" class="btn btn-teal px-4 py-2">Salvar produto</button>
             </div>
         </div>
