@@ -7,10 +7,10 @@ class Database {
     public static function getConnection() {
         if (self::$instance === null) {
             // Configurações do seu banco de dados
-            $host = 'localhost';
-            $db   = 'nexos'; // Altere para o nome exato do seu banco no XAMPP
-            $user = 'root';
-            $pass = '';        // Senha padrão do XAMPP é vazia
+            $host = 'sql302.infinityfree.com';
+            $db   = 'if0_43196592_nexos'; // Altere para o nome exato do seu banco no XAMPP
+            $user = 'if0_43196592';
+            $pass = 'Lu20062016';        // Senha padrão do XAMPP é vazia
             $charset = 'utf8mb4';
 
             $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
