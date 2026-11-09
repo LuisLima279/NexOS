@@ -115,4 +115,9 @@ class Cliente {
 
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+
+    public function listarTodos() {
+        $stmt = $this->conn->query("SELECT * FROM clientes ORDER BY nome ASC");
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }

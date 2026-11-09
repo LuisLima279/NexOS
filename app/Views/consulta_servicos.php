@@ -32,7 +32,7 @@ $servicos = $servicoModel->listarTodos();
         <a href="consulta_clientes.php" class="nav-link">Clientes</a>
         <a href="consulta_produtos.php" class="nav-link">Estoque</a>
         <a href="consulta_servicos.php" class="nav-link active">Serviços</a>
-        <a href="#" class="nav-link">Ordens de serviço</a>
+        <a href="consulta_os.php" class="nav-link">Ordens de serviço</a>
         <a href="#" class="nav-link">Relatórios</a>
     </nav>
 </div>
